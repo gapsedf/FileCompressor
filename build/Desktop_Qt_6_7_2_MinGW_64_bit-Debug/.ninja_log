@@ -1,0 +1,29 @@
+# ninja log v6
+4	615	7466298365586121	QtProject1_autogen/timestamp	5a34e543989afa0a
+4	615	7466298365586121	QtProject1_autogen/mocs_compilation.cpp	5a34e543989afa0a
+4	615	7466298365586121	F:/Qt Projects/QtProject1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/QtProject1_autogen/timestamp	5a34e543989afa0a
+4	615	7466298365586121	F:/Qt Projects/QtProject1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/QtProject1_autogen/mocs_compilation.cpp	5a34e543989afa0a
+621	3303	7466298366536072	CMakeFiles/QtProject1.dir/QtProject1_autogen/mocs_compilation.cpp.obj	aab0f5dad6913f0
+624	3313	7466298366566078	CMakeFiles/QtProject1.dir/main.cpp.obj	461de4f1b28dbece
+627	3412	7466298366586139	CMakeFiles/QtProject1.dir/mainwindow.cpp.obj	a8a1e4f401f57501
+3413	3641	7466298394449871	QtProject1.exe	1a73c9063cf83bcd
+11	207	7466301949947570	QtProject1_autogen/timestamp	5a34e543989afa0a
+11	207	7466301949947570	QtProject1_autogen/mocs_compilation.cpp	5a34e543989afa0a
+11	207	7466301949947570	F:/Qt Projects/QtProject1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/QtProject1_autogen/timestamp	5a34e543989afa0a
+11	207	7466301949947570	F:/Qt Projects/QtProject1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/QtProject1_autogen/mocs_compilation.cpp	5a34e543989afa0a
+208	2804	7466301951917533	CMakeFiles/QtProject1.dir/mainwindow.cpp.obj	a8a1e4f401f57501
+2805	3037	7466301977887503	QtProject1.exe	1a73c9063cf83bcd
+11	209	7466302225434560	QtProject1_autogen/timestamp	5a34e543989afa0a
+11	209	7466302225434560	QtProject1_autogen/mocs_compilation.cpp	5a34e543989afa0a
+11	209	7466302225434560	F:/Qt Projects/QtProject1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/QtProject1_autogen/timestamp	5a34e543989afa0a
+11	209	7466302225434560	F:/Qt Projects/QtProject1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/QtProject1_autogen/mocs_compilation.cpp	5a34e543989afa0a
+210	2817	7466302227424532	CMakeFiles/QtProject1.dir/mainwindow.cpp.obj	a8a1e4f401f57501
+2817	3054	7466302253504546	QtProject1.exe	1a73c9063cf83bcd
+13	756	7466311531415734	QtProject1_autogen/timestamp	5a34e543989afa0a
+13	756	7466311531415734	QtProject1_autogen/mocs_compilation.cpp	5a34e543989afa0a
+13	756	7466311531415734	F:/Qt Projects/QtProject1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/QtProject1_autogen/timestamp	5a34e543989afa0a
+13	756	7466311531415734	F:/Qt Projects/QtProject1/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/QtProject1_autogen/mocs_compilation.cpp	5a34e543989afa0a
+758	4305	7466311532575731	CMakeFiles/QtProject1.dir/QtProject1_autogen/mocs_compilation.cpp.obj	aab0f5dad6913f0
+761	4399	7466311532605728	CMakeFiles/QtProject1.dir/main.cpp.obj	461de4f1b28dbece
+764	5219	7466311532645715	CMakeFiles/QtProject1.dir/mainwindow.cpp.obj	a8a1e4f401f57501
+5219	5476	7466311577193004	QtProject1.exe	1a73c9063cf83bcd
