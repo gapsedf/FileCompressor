@@ -1,6 +1,9 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QFileDialog>
+#include <QFile>
+#include <QByteArray>
+#include <QMessageBox>
 #include <zlib.h>
 
 MainWindow::MainWindow(QWidget *parent)
@@ -37,8 +40,16 @@ void MainWindow::on_pushButton_clicked()
             file.close();
 
             // Compress the data using zlib
-            QByteArray compressedData;
-            // (Insert zlib compression code here)
+            uLongf compressedSize = compressBound(data.size());
+            QByteArray compressedData(compressedSize, 0);
+            int result = compress(reinterpret_cast<Bytef*>(compressedData.data()), &compressedSize, reinterpret_cast<const Bytef*>(data.data()), data.size());
+
+            if (result != Z_OK) {
+                QMessageBox::warning(this, tr("Error"), tr("Compression failed!"));
+                return;
+            }
+
+            compressedData.resize(compressedSize);
 
             // Save the compressed data to a new file
             QFile compressedFile(filePath + ".gz");
@@ -63,8 +74,16 @@ void MainWindow::on_pushButton_2_clicked()
             compressedFile.close();
 
             // Decompress the data using zlib
-            QByteArray decompressedData;
-            // (Insert zlib decompression code here)
+            uLongf decompressedSize = compressedData.size() * 4; // Estimate decompressed size
+            QByteArray decompressedData(decompressedSize, 0);
+            int result = uncompress(reinterpret_cast<Bytef*>(decompressedData.data()), &decompressedSize, reinterpret_cast<const Bytef*>(compressedData.data()), compressedData.size());
+
+            if (result != Z_OK) {
+                QMessageBox::warning(this, tr("Error"), tr("Decompression failed!"));
+                return;
+            }
+
+            decompressedData.resize(decompressedSize);
 
             // Save the decompressed data to a new file
             QFile decompressedFile(filePath + ".decompressed");

@@ -38,6 +38,8 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(396, 160);
+        MainWindow->setMinimumSize(QSize(396, 160));
+        MainWindow->setMaximumSize(QSize(396, 160));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         pushButton = new QPushButton(centralwidget);
